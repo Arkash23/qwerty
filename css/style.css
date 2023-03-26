@@ -1,0 +1,72 @@
+html{
+    box-sizing: border-box;
+    
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+} 
+
+
+
+.container {
+	width: 100%;  /* задаешь ширину контейнера, обычно как в макете я взял просто на весь экран */
+	margin: 0 auto; /* вот эта запись распологает контейнер в центре по ширине  */
+	padding: 20px;
+}
+.title {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 72px;
+	margin-bottom: 20px;
+}
+.title span{
+	color: #3461FD;
+}
+.subtitle {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #6d737a;
+	margin-bottom: 50px;
+}
+.cards__wrapper {
+	width: 1350px;  /* задаешь ширину обертки, как в макете */
+	margin: 0 auto; /* это ты уже знаешь */
+
+	/* эти 2 я в html расписал*/
+	display: flex;
+	justify-content: space-between;
+}  
+.card {
+	width: 312px;  /* ширина карточки, как в макете*/
+	padding: 16px; /* паддинг , как в макете,чтобы контент не прилипал к краям*/
+	box-shadow: 0px 3px 12px rgba(75, 75, 75, 0.3);  /* тени карточки из фигмы  */
+	border-radius: 24px;  /* округление краев карточки */
+
+}
+.card-img {
+	margin-bottom: 16px;
+}
+.card-name {
+	/*тут я тексту задаю 
+	display: flex;
+	justify-content: center; 
+	чтобы он встал по центу, но можно и отступом задавать
+	*/
+	display: flex;
+	justify-content: center;
+
+	
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.card-jobs {
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #6D737A;
+}
