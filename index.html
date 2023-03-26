@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<!-- создаешь ограничивающий контейнер, чтобы верстка не выходила за его пределы -->
+
+	<div class="container">
+
+		<!-- тут тайтл -->
+		<h1 class="title">Our Best <span>Instructor</span></h1>
+		<!-- тут сабтайтл -->
+		<p class="subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+
+
+
+
+		<!-- создаешь ограничивающую обертку для карточек, потому что при использовании 
+
+		"display:flex       весь контент встаёт в строку    
+		justify-content: space-between"  и разлетается по краям
+
+		  -->
+		<div class="cards__wrapper">
+
+			<!-- сама карточка -->
+			<div class="card">
+				<!-- картинка -->
+				<img src="img/Rectangle 16.png" alt="" class="card-img">
+				<!-- текста -->
+				<p class="card-name">Jacob Jones</p>
+				<p class="card-jobs">Social Media Expart</p>
+			</div>
+
+			<div class="card">
+				<img src="img/Rectangle 16.png" alt="" class="card-img">
+				<p class="card-name">Jacob Jones</p>
+				<p class="card-jobs">Business Idea Expart</p>
+			</div>
+
+			<div class="card">
+				<img src="img/Rectangle 16.png" alt="" class="card-img">
+				<p class="card-name">Jacob Jones</p>
+				<p class="card-jobs">UI-UX Design Expart</p>
+			</div>
+
+			<div class="card">
+				<img src="img/Rectangle 16.png" alt="" class="card-img">
+				<p class="card-name">Jacob Jones</p>
+				<p class="card-jobs">UI-UX Design Expart</p>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
